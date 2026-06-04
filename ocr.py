@@ -2,7 +2,7 @@ import cv2
 import pytesseract
 import numpy as np
 
-image = cv2.imread("sample_image.png")
+image = cv2.imread("text.jpg")
 
 if image is None:
     print("Image not found!")
